@@ -1,0 +1,14 @@
+Write a Python function `remove_blank_line_and_concatenate()` which:
+
+a. remove all the blank lines from a dna.txt file, 
+b. concatenate all the dna sequence into a single ouptut string.
+
+Details of DNA.txt
+Overview:
+A sample dna file to replicate real world secnario of untidy data
+
+DNA Sequences: 
+The file contains several DNA sequences represented by strings of A, T, C, and G.
+
+Numbers: 
+Included sequences of numbers like 1234567890, 1010101010101010, and 1111111111111111.
