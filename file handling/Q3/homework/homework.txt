@@ -1,0 +1,4 @@
+1. Write a program to count the average frequency of each word in a given text file (file.txt), and store the 
+results in another file sorted by average frequency.
+
+2. Explore additional dictionary and string and file methods.

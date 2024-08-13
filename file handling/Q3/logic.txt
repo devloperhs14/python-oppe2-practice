@@ -1,0 +1,14 @@
+Write a program to count the frequency of each word in a given text file, and store the 
+results in another file sorted by frequency.
+
+1. Open the file and covert to lowecase words.
+2. Process the text to remove blank spaces and any punctuation symbols.
+3. Split the preprocessed text into list.
+4. Create a empty dictionary and populate it with key : words and value: freq.
+
+In a loop: Iterate over words and value pairs:
+
+5. Open a new file.
+6. Convert the dict into key value tuples.
+7. Sort the tuple based on value / count in decending order.
+6. Write to file as word:count pairs.
