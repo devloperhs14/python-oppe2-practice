@@ -1,0 +1,22 @@
+Initialization: Start with an empty dictionary to track points and goals.
+
+Loop through Matches: For each match, update the goals and points for each team.
+
+Handle New Teams: Ensure all teams involved in the matches are tracked.
+
+Update Points Based on Match Outcome: Assign points depending on whether a team wins, loses, or draws.
+
+Sort and Return: Once all matches are processed, sort the teams based on points and goals, then return the sorted leaderboard.
+
+matches = [
+    {"team1": "Brazil", "team2": "Argentina", "goals1": 2, "goals2": 1},
+    {"team1": "Germany", "team2": "France", "goals1": 1, "goals2": 2},
+    {"team1": "Brazil", "team2": "Germany", "goals1": 3, "goals2": 2},
+    {"team1": "Argentina", "team2": "France", "goals1": 1, "goals2": 1},
+    {"team1": "Brazil", "team2": "France", "goals1": 1, "goals2": 0},
+    {"team1": "Argentina", "team2": "Germany", "goals1": 2, "goals2": 0},
+    {"team1": "Germany", "team2": "France", "goals1": 0, "goals2": 1}
+]
+
+Output : (TeamName, Points, GoalScored)
+[('Brazil', 6, 6), ('France', 5, 4), ('Argentina', 3, 4), ('Germany', 0, 3)]

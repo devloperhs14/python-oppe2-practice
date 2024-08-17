@@ -1,0 +1,30 @@
+Find the longest common prefix among all the words in the sentence.
+
+Test Cases:
+in: longest_common_prefix('flower flow flight')
+>> fl
+
+1- ["flower", "flow", "flight"] -> easily comaprison
+
+2. 
+prefix = fl -> 
+prefix compared with flow -> flow dont start with flower, so prefix will become small by 1
+
+Now prefix = flower -> flow 
+
+So flow mathches flow, so next word will be checked
+
+Now flight -> flow, not a match so, prefix shorten by 1 -> 
+-> prefix = flow
+-> compare , not match, prefix reduced
+-> prefix = fl
+-> compare, yes a match
+-> return prefix
+
+
+1. Edge -> " " -> [] -> ""
+
+2. "word" -> word
+
+
+
