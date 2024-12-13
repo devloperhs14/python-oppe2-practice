@@ -1,0 +1,3 @@
+Hello World!
+Python programming is fun.
+Data science, AI, and ML are the future.
